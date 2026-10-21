@@ -72,6 +72,7 @@
   "members": [
     {
       "id": "gan-power-device-team-lead",
+      "name": { "en": "Shen", "zh": "沈定策" },
       "displayName": { "en": "Shen", "zh": "沈定策" },
       "profession": { "en": "Chief GaN Technology Officer", "zh": "氮化镓技术首席" },
       "avatar": "avatars/gan-power-device-team-lead.png",
@@ -79,6 +80,7 @@
     },
     {
       "id": "gan-epitaxy-material-expert",
+      "name": { "en": "Qin", "zh": "秦长晶" },
       "displayName": { "en": "Qin", "zh": "秦长晶" },
       "profession": { "en": "Epitaxy & Materials Engineer", "zh": "外延与材料工艺专家" },
       "avatar": "avatars/gan-epitaxy-material-expert.png",
@@ -86,6 +88,7 @@
     },
     {
       "id": "gan-device-design-expert",
+      "name": { "en": "Tao", "zh": "陶通" },
       "displayName": { "en": "Tao", "zh": "陶通" },
       "profession": { "en": "Device Design & Process Engineer", "zh": "器件设计与工艺专家" },
       "avatar": "avatars/gan-device-design-expert.png",
@@ -93,6 +96,7 @@
     },
     {
       "id": "gan-device-reliability-expert",
+      "name": { "en": "Shao", "zh": "邵明" },
       "displayName": { "en": "Shao", "zh": "邵明" },
       "profession": { "en": "Reliability & Failure Analysis Engineer", "zh": "可靠性与失效分析专家" },
       "avatar": "avatars/gan-device-reliability-expert.png",
@@ -100,6 +104,7 @@
     },
     {
       "id": "gan-packaging-integration-expert",
+      "name": { "en": "Ji", "zh": "纪承" },
       "displayName": { "en": "Ji", "zh": "纪承" },
       "profession": { "en": "Packaging & Integration Engineer", "zh": "封装与集成工程专家" },
       "avatar": "avatars/gan-packaging-integration-expert.png",
@@ -107,6 +112,7 @@
     },
     {
       "id": "gan-application-system-expert",
+      "name": { "en": "Xue", "zh": "薛翔" },
       "displayName": { "en": "Xue", "zh": "薛翔" },
       "profession": { "en": "Application & System Design Engineer", "zh": "应用与系统设计专家" },
       "avatar": "avatars/gan-application-system-expert.png",
@@ -114,6 +120,7 @@
     },
     {
       "id": "gan-supply-chain-analyst",
+      "name": { "en": "Su", "zh": "苏源" },
       "displayName": { "en": "Su", "zh": "苏源" },
       "profession": { "en": "Supply Chain & Localization Analyst", "zh": "产业链与国产替代分析师" },
       "avatar": "avatars/gan-supply-chain-analyst.png",
