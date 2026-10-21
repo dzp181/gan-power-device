@@ -1,0 +1,123 @@
+{
+  "name": "gan-power-device",
+  "version": "1.0.0",
+  "description": "GaN power device expert team covering epitaxy and substrate materials, HEMT device design and gate process, reliability and failure analysis, packaging and driver integration, application-level system design, and supply-chain localization.",
+  "author": {
+    "name": "dzp",
+    "email": "dzp181@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/gan-power-device-team-lead.md",
+    "./agents/gan-epitaxy-material-expert.md",
+    "./agents/gan-device-design-expert.md",
+    "./agents/gan-device-reliability-expert.md",
+    "./agents/gan-packaging-integration-expert.md",
+    "./agents/gan-application-system-expert.md",
+    "./agents/gan-supply-chain-analyst.md"
+  ],
+  "skills": ["./skills/gan-toolkit"],
+
+  "expertType": "team",
+  "agentName": "gan-power-device-team-lead",
+  "teamInfo": {
+    "leadAgent": "gan-power-device-team-lead",
+    "memberAgents": [
+      "gan-epitaxy-material-expert",
+      "gan-device-design-expert",
+      "gan-device-reliability-expert",
+      "gan-packaging-integration-expert",
+      "gan-application-system-expert",
+      "gan-supply-chain-analyst"
+    ]
+  },
+
+  "displayName": {
+    "en": "GaN Power Device Expert Team",
+    "zh": "氮化镓功率器件专家团"
+  },
+  "profession": {
+    "en": "GaN Power Device Expert Team",
+    "zh": "氮化镓功率器件专家团"
+  },
+  "displayDescription": {
+    "en": "Full-stack GaN power device team: epitaxy and substrate, HEMT design and gate process, reliability and failure analysis, packaging and driver integration, system design, and supply-chain localization.",
+    "zh": "氮化镓功率器件全栈团队：外延衬底、器件设计与栅极工艺、可靠性失效、封装驱动集成，到国产替代研判。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "我要做一款 650V 氮化镓快充开关方案，从导通电阻、开关损耗、栅极驱动到 PCB 布局帮我把设计参数和风险点算一遍。",
+    "en": "I am designing a 650V GaN fast-charger switch stage. Walk me through the design parameters and risk points, from Rds(on) and switching loss to gate drive and PCB layout."
+  },
+  "plugin": "gan-power-device",
+  "tags": [
+    { "en": "Device Design & Process", "zh": "器件设计与工艺" },
+    { "en": "Reliability & Failure Analysis", "zh": "可靠性与失效分析" },
+    { "en": "Application & Localization", "zh": "应用方案与国产替代" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I am designing a 650V GaN fast-charger switch stage. Walk me through the design parameters and risk points, from Rds(on) and switching loss to gate drive and PCB layout.",
+      "zh": "我要做一款 650V 氮化镓快充开关方案，从导通电阻、开关损耗、栅极驱动到 PCB 布局帮我把设计参数和风险点算一遍。"
+    },
+    {
+      "en": "Our p-GaN gate 650V GaN devices show dynamic Rds(on) rising more than 30% after 800V bias — help me identify the root cause and design a verification plan.",
+      "zh": "我们这批 p-GaN 栅极 650V 氮化镓器件在 800V 偏压后动态导通电阻上升超过 30%，帮我定位根因并给出验证方案。"
+    },
+    {
+      "en": "Map the GaN power device supply chain bottlenecks and localization progress, then judge supply-demand and competitive dynamics for 650V and 1200V segments over the next two years.",
+      "zh": "帮我梳理氮化镓功率器件的产业链卡点与国产替代进度，并判断未来两年 650V 与 1200V 段的供需和竞争格局。"
+    }
+  ],
+  "members": [
+    {
+      "id": "gan-power-device-team-lead",
+      "displayName": { "en": "Shen", "zh": "沈定策" },
+      "profession": { "en": "Chief GaN Technology Officer", "zh": "氮化镓技术首席" },
+      "avatar": "avatars/gan-power-device-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "gan-epitaxy-material-expert",
+      "displayName": { "en": "Qin", "zh": "秦长晶" },
+      "profession": { "en": "Epitaxy & Materials Engineer", "zh": "外延与材料工艺专家" },
+      "avatar": "avatars/gan-epitaxy-material-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "gan-device-design-expert",
+      "displayName": { "en": "Tao", "zh": "陶通" },
+      "profession": { "en": "Device Design & Process Engineer", "zh": "器件设计与工艺专家" },
+      "avatar": "avatars/gan-device-design-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "gan-device-reliability-expert",
+      "displayName": { "en": "Shao", "zh": "邵明" },
+      "profession": { "en": "Reliability & Failure Analysis Engineer", "zh": "可靠性与失效分析专家" },
+      "avatar": "avatars/gan-device-reliability-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "gan-packaging-integration-expert",
+      "displayName": { "en": "Ji", "zh": "纪承" },
+      "profession": { "en": "Packaging & Integration Engineer", "zh": "封装与集成工程专家" },
+      "avatar": "avatars/gan-packaging-integration-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "gan-application-system-expert",
+      "displayName": { "en": "Xue", "zh": "薛翔" },
+      "profession": { "en": "Application & System Design Engineer", "zh": "应用与系统设计专家" },
+      "avatar": "avatars/gan-application-system-expert.png",
+      "role": "member"
+    },
+    {
+      "id": "gan-supply-chain-analyst",
+      "displayName": { "en": "Su", "zh": "苏源" },
+      "profession": { "en": "Supply Chain & Localization Analyst", "zh": "产业链与国产替代分析师" },
+      "avatar": "avatars/gan-supply-chain-analyst.png",
+      "role": "member"
+    }
+  ]
+}
